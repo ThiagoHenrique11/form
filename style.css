@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.title{
+    display: flex;
+    background-color: black;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 65, 97);
+    text-align: center;
+}
+
+.formulario{
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.d1 input, .d2 input, .area textarea{
+    width: 100%;
+    padding: 2%;
+    margin-top: 20px;
+}
+
+.btn{
+    text-align: center;
+}
+
+.btn input{
+    padding: 10px;
+    background-color: #ccc;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn input:hover{
+    background-color: darkgray;
+}
+
+
